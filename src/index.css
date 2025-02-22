@@ -1,0 +1,75 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Tailwind CSS */
+@import "tailwindcss";
+
+/* Swiper Carousel */
+@import "swiper/css/pagination";
+@import "swiper/css";
+
+
+
+:root {
+  font-family: "Poppins", serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+
+  color-scheme: light dark;
+  color: #F8F7F1;
+  background-color: #040404;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Toastify__toast {
+  margin-bottom: 20px !important;
+}
+
+.fullBleedColor {
+  box-shadow: 0 0 0 100vmax #222222 !important;
+  clip-path: inset(0 -100vmax)
+}
+
+/* Carousel */
+
+.swiper-slide {
+  width: 35%;
+}
+
+@media screen and (max-width:768px) {
+  .swiper-slide {
+    width: auto;
+  }
+}
+
+
+.swiper-pagination {
+  position: static !important;
+  width: max-content !important;
+  margin-top: 25px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  opacity: 1 !important;
+  border: 1px solid #8a8989 !important;
+}
+
+.swiper-pagination-bullet-active, .swiper-pagination-bullet:hover {
+  color: #fff !important;
+  background: #E3CD27 !important;
+  border: 0px !important;
+}
