@@ -38,7 +38,7 @@ const Home = () => {
                             />
                         </NavLink>
 
-                        <NavLink to='about' type='button' className='px-[24px] py-[12px] md:px-[30px] border-[2px] border-solid bg-transparent border-[#E3CD27] text-[#E3CD27] text-[18px] sm:text-[20.25px] transition-all duration-[200ms] ease-in-out hover:pl-[50px]'>My Story</NavLink>
+                        <NavLink to='about' type='button' className='px-[24px] py-[12px] md:px-[30px] border-[2px] border-solid bg-[#040404] border-[#E3CD27] text-[#E3CD27] text-[18px] sm:text-[20.25px] transition-all duration-[200ms] ease-in-out hover:pl-[50px]'>My Story</NavLink>
                     </div>
                 </div>
                 

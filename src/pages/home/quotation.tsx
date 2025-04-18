@@ -2,7 +2,7 @@
 const Quotation = () => {
     // Return:
     return <div className='my-[75px] py-[40px] grid grid-cols-2 items-center'>
-        <div className='py-[15px] h-full row-start-1 row-end-1 col-span-full relative right-[50%] left-[50%] ml-[-50vw] mr-[-50vw] w-[99vw] z-[-2]'>
+        <div className='py-[15px] min-h-[250px] h-full row-start-1 row-end-1 col-span-full relative right-[50%] left-[50%] ml-[-50vw] mr-[-50vw] w-[99vw] z-[-2]'>
             <img 
                 className='object-cover h-full w-full'
                 src='/assets/quote.png' 
