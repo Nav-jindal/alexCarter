@@ -22,10 +22,13 @@ const Home = () => {
     // Return:
     return (
         <>
-            <div className='mb-[100px]'>
+            <div className='mb-[100px]'> 
                 <div className='h-[calc(100vh-77px)] flex flex-col justify-center'>
                     <div className='mb-[42px] max-w-[600px]'>
-                        <h1 className='text-[41.053px] sm:text-[58.452px] font-bold'>The <span className='text-[#E3CD27]'>Gold Standard</span> in Fitness </h1>
+                        <h1 className='text-[41.053px] sm:text-[51.957px] font-bold'><span className='text-[#E3CD27]'>Get Fit—</span>No Matter Your Schedule</h1>
+                        <p className='text-[#c5c4be] text-[20px] mt-[25px]'>
+                        I help busy professionals get fit and energized with routines that fit their schedule—no drastic changes needed.
+                        </p>
                     </div>
                     
                     <div className='flex items-center gap-[18px] flex-wrap'>
